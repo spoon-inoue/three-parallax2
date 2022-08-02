@@ -2,6 +2,7 @@
 	"name": "three-parallax2",
 	"private": true,
 	"version": "0.0.0",
+	"homepage": "https://spoon-inoue.github.io/three-parallax2/",
 	"scripts": {
 		"start": "vite",
 		"build": "tsc && vite build --emptyOutDir",

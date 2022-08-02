@@ -25,6 +25,10 @@ class App {
 		playButton.ontransitionend = () => {
 			playButton.hidden = true
 		}
+
+		window.onbeforeunload = () => {
+			this.dispose()
+		}
 	}
 
 	private dispose = () => {
